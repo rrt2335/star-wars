@@ -1,7 +1,7 @@
 // Private
 import Person from "../models/person.js";
 import Planet from "../models/planet.js";
-// import Starship from "../models/starship.js";
+import Starship from "../models/starship.js";
 
 // Creates an object to send requests from
 let _peopleApi = axios.create({
@@ -50,7 +50,7 @@ let _subscribers = {
 
     starships: [],
     nextPrevStarships: [],
-    activeStarships: []
+    activeStarship: []
 }
 
 // HANDLES ALL ASYNC

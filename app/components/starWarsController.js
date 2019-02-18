@@ -69,9 +69,9 @@ export default class StarWarsController {
         _swService.addSubscriber('planets', drawPlanets)
         _swService.addSubscriber('activePlanet', drawActivePlanet)
         _swService.getAllApiPlanets()
-        // _swService.addSubscriber('starships', drawStarships)
-        // _swService.addSubscriber('activeStarship', drawActiveStarship)
-        // _swService.getAllApiStarships()
+        _swService.addSubscriber('starships', drawStarships)
+        _swService.addSubscriber('activeStarship', drawActiveStarship)
+        _swService.getAllApiStarships()
     }
 
     getPeople(url) {
