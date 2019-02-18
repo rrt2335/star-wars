@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: #ffe919
+}
+
+.male {
+    color: blue
+}
+
+.female {
+    color: pink
+}
+
+.n\/a, .none {
+    color: slategray
+}
+
+.hermaphrodite {
+    color: burlywood
+}
