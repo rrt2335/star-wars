@@ -6,9 +6,7 @@ export default class Person {
         this.eyeColor = data.eye_color || data.eyeColor
         this.movies = data.movies || data.films.length
         this.url = data.url
-        this.birthYear = data.birth_year
     }
-
 
     get BasicTemplate() {
         return `<li onclick="app.controllers.swController.getPerson('${this.url}')" class="${this.gender}">${this.name}</li>`
@@ -20,7 +18,6 @@ export default class Person {
         <p>Hair: ${this.hairColor}</p>
         <p>Eyes: ${this.eyeColor}</p>
         <p>Movies: ${this.movies}</p>
-        <p>Birth Year: ${this.birthYear}</p>
         `
     }
 }
