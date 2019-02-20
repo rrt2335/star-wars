@@ -1,6 +1,8 @@
 body {
-    background-color: black;
-    color: #ffe919
+    background-image: url("https://i.pinimg.com/originals/40/c7/12/40c712e5f3833bc38dbe1213da27069e.jpg");
+    color: #ffe919;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .male {

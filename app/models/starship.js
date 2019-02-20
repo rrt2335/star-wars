@@ -1,7 +1,10 @@
 export default class Starship {
     constructor(data) {
         this.name = data.name
+        this.model = data.model
+        this.manufacturer = data.manufacturer
         this.url = data.url
+        this.crew = data.crew
     }
 
     get BasicTemplate() {
@@ -11,9 +14,9 @@ export default class Starship {
     get DetailedTemplate() {
         return `
         <h3>${this.name}</h3>
-        // <p>Hair: ${this.hairColor}</p>
-        // <p>Eyes: ${this.eyeColor}</p>
-        // <p>Movies: ${this.movies}</p>
+        <p>Model: ${this.model}</p>
+        <p>Manufacturer: ${this.manufacturer}</p>
+        <p>Number of crew members: ${this.crew}</p>
         `
     }
 }
